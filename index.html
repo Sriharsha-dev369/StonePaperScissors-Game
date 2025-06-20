@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stone Paper Scissors</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: brown;
+        padding-top: 50px;
+      }
+      h1 {
+        margin-bottom: 20px;
+        color: azure;
+      }
+      .choices button {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 10px;
+        cursor: pointer;
+        border: none;
+        border-radius: 5px;
+        background-color: #4caf50;
+        color: white;
+      }
+
+      .score-board {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-top: 3rem;
+        gap: 5rem;
+      }
+
+      #user,
+      #comp {
+        font-size: 4rem;
+      }
+
+      .msg-container {
+        color: aliceblue;
+        background-color: black;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>Stone Paper Scissors</h1>
+
+    <div class="choices">
+      <button id="rock">🪨 Rock</button>
+      <button id="paper">📄 Paper</button>
+      <button id="scissors">✂️ Scissors</button>
+    </div>
+
+    <div class="score-board">
+      <div class="score">
+        <p id="user">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp">0</p>
+        <p>comp</p>
+      </div>
+    </div>
+
+    <div class="msg-container">
+      <p id="msg">hello</p>
+    </div>
+  </body>
+  <script src="Script.js"></script>
+</html>
