@@ -52,4 +52,6 @@ choices.forEach((choice) => {
     })
 })
 
-
+function prac(){
+    return 0;
+}
