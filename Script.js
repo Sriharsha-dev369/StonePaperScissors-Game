@@ -55,3 +55,7 @@ choices.forEach((choice) => {
 function prac(){
     return 0;
 }
+
+function again(){
+    return 1;
+}
